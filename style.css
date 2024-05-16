@@ -1,9 +1,8 @@
 body {
     background-color: rgb(26, 30, 37);
-    display: grid;
-    justify-content: center;
     padding: 0;
     margin: 0;
+    margin-top: 10px;
     font-family: "friz quadrata std";
 }
 
@@ -53,6 +52,8 @@ main {
     width: 150px;
     display: block;
     transition: transform 0.3s ease-in-out;
+    position: relative;
+    right: 15%;
 }
 
 #navigation-bar-elements>li>img:hover {
@@ -71,7 +72,10 @@ main {
     padding: 10px 0; /* Padding vertical para el texto */
     opacity: 0; /* Oculta el texto inicialmente */
     transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+    transform: translate(-15%, 0%);
+    border-radius: 5px;
 }
+
 
 #navigation-bar-elements>li:hover span {
     opacity: 1;
@@ -87,12 +91,77 @@ main {
 }
 
 #video {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    text-align: center;
 }
 
 #right-bar {
     grid-column: 3 / 4;
     justify-self: end;
     margin-right: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(248, 234, 157);
 }
+
+footer {
+    display: grid;
+    justify-content: center;
+}
+
+#footer-title {
+    text-align: center;
+    font-weight: normal;
+    color: rgb(13, 16, 22);
+}
+
+#social-media-items {
+    display: flex;
+    list-style: none;
+}
+
+#social-media-items>li {
+    padding-right: 50px;
+    scale: 150%;
+}
+
+#social-media-items>li>a {
+    color: rgb(13, 16, 22);
+}
+
+#social-media-items>li>a:hover {
+    color: rgb(248, 234, 157);
+    transition: 0.5s;
+}
+
+#social-media-items>li>a:active {
+    color: white;
+}
+
+/* #carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding-right: 10px;
+    animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% * 3));
+    }
+}
+
+.carousel-item>img {
+    height: 400px;
+}
+*/ 
