@@ -92,55 +92,6 @@ main {
     border-radius: 10px;
 }
 
-#description-video {
-    text-align: center;
-}
-
-#expansions-info {
-    background-color: rgba(156, 148, 99, 0.171);
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    border: 2px solid rgb(26, 31, 37);
-}
-
-#expansions-info-title {
-    text-align: center;
-    font-weight: normal;
-}
-
-#expansions-info>ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-#expansions-items-one>li>img {
-    height: 200px;
-    padding-right: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-#expansions-items-one>li>img:hover {
-    transform: scale(1.2);
-}
-
-#expansions-items-two>li>img {
-    height: 200px;
-    padding-right: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-#expansions-items-two>li>img:hover {
-    transform: scale(1.2);
-}
-
-#expansions-videos {
-    transform: translateX(48%);
-}
-
 #right-bar {
     grid-column: 3 / 4;
     justify-self: end;
