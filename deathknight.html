@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Death Knight</title>
     <link rel="stylesheet" href="style-dk.css">
     <link href="https://fonts.cdnfonts.com/css/friz-quadrata-std" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -14,7 +14,9 @@
 
 <body>
     <header>
-        <img id="df-logo" src="img/Dragonflight_logo.webp" alt="">
+        <a href="index.html">
+            <img id="df-logo" src="img/Dragonflight_logo.webp" alt="">
+        </a>
     </header>
 
     <main>
@@ -29,73 +31,73 @@
                 </li>
                 <li>
                     <span style="color: #A330C9;">Demon Hunter</span>
-                    <a href="classes/demonhunter.html" target="_blank">
+                    <a href="demonhunter.html" target="_blank">
                         <img src="img/DemonHunter.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #FF7C0A;">Druid</span>
-                    <a href="classes/druid.html" target="_blank">
+                    <a href="druid.html" target="_blank">
                         <img src="img/Druid.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #33937F;">Evoker</span>
-                    <a href="classes/evoker.html" target="_blank">
+                    <a href="evoker.html" target="_blank">
                         <img src="img/Evoker.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #AAD372;">Hunter</span>
-                    <a href="classes/hunter.html" target="_blank">
+                    <a href="hunter.html" target="_blank">
                         <img src="img/Hunter.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #3FC7EB;">Mage</span>
-                    <a href="classes/mage.html" target="_blank">
+                    <a href="mage.html" target="_blank">
                         <img src="img/Mage.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #00FF98;">Monk</span>
-                    <a href="classes/monk.html" target="_blank">
+                    <a href="monk.html" target="_blank">
                         <img src="img/Monk.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #F48CBA;">Paladin</span>
-                    <a href="classes/paladin.html" target="_blank">
+                    <a href="paladin.html" target="_blank">
                         <img src="img/Paladin.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #FFFFFF;">Priest</span>
-                    <a href="classes/priest.html" target="_blank">
+                    <a href="priest.html" target="_blank">
                         <img src="img/Priest.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #FFF468;">Rogue</span>
-                    <a href="classes/rogue.html" target="_blank">
+                    <a href="rogue.html" target="_blank">
                         <img src="img/Rogue.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #0070DD;">Shaman</span>
-                    <a href="classes/shaman.html" target="_blank">
+                    <a href="shaman.html" target="_blank">
                         <img src="img/Shaman.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #8788EE;">Warlock</span>
-                    <a href="classes/warlock.html" target="_blank">
+                    <a href="warlock.html" target="_blank">
                         <img src="img/Warlock.webp">
                     </a>
                 </li>
                 <li>
                     <span style="color: #C69B6D;">Warrrior</span>
-                    <a href="classes/warrior.html" target="_blank">
+                    <a href="warrior.html" target="_blank">
                         <img src="img/Warrior.webp">
                     </a>
                 </li>
@@ -137,6 +139,37 @@
                 Unholy death knights are masters of death and decay, spreading infection and controlling undead minions
                 to do their bidding.
             </p>
+
+            <div id="specialization-videos">
+                <h2 id="specialization-title">Specializations Guides</h2>
+                <ul>
+                    <li>
+                        <img src="https://wowmeta.com/assets/icons/specs/death-knight-blood.jpg" alt=""
+                            onclick="changeVideo('VpQVk5x1sm8?si=5Z63Fv8xAEJGiRKb')">
+                        </img>
+                        <span>Blood</span>
+                    </li>
+                    <li>
+                        <img src="https://wowmeta.com/assets/icons/specs/death-knight-unholy.jpg" alt=""
+                            onclick="changeVideo('P31NXzHrQ44?si=uDgy72t6-aeXmk4_')">
+                        </img>
+                        <span>Unholy</span>
+                    </li>
+                    <li>
+                        <img src="https://wowmeta.com/assets/icons/specs/death-knight-frost.jpg" alt=""
+                            onclick="changeVideo('QH18TCWg3sw?si=AA0FjlST-RE_y-hW')">
+                        </img>
+                        <span>Frost</span>
+                    </li>
+                </ul>
+
+                <iframe id="change-video" width="560" height="315"
+                    src="https://www.youtube.com/embed/VpQVk5x1sm8?si=5Z63Fv8xAEJGiRKb" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
         </div>
 
         <div id="right-bar">
@@ -145,7 +178,11 @@
                 src="https://open.spotify.com/embed/playlist/3fPG8zDPmtahUJkmdq3OSX?utm_source=generator" height="500px"
                 frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
+                loading="lazy">
+            </iframe>
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/940585896200801166/A2CCA37DCE5F80DF9F834266C68BF0684F2637A9/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="">
+            <img src="https://live.staticflickr.com/4052/4633807106_fbe6d97639_b.jpg" alt="">
         </div>
     </main>
 
@@ -186,6 +223,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
