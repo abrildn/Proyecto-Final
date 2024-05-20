@@ -1,5 +1,5 @@
 body {
-    background-color: #771223;
+    background-color: #614c35;
     padding: 0;
     margin: 0;
     margin-top: 10px;
@@ -27,7 +27,7 @@ main {
     grid-row: 1 / 2;
     justify-self: start;
     padding-left: 0px;
-    background-color:#360910;
+    background-color:#2e2419;
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px;
 }
@@ -85,7 +85,7 @@ main {
 
 #description {
     grid-column: 2 / 3;
-    background-color: #C41E3A;
+    background-color: #9b7955;
     margin-top: 50px;
     padding: 50px;
     color: rgb(248, 234, 157);
@@ -178,7 +178,7 @@ footer {
 #footer-title {
     text-align: center;
     font-weight: normal;
-    color: #360910;
+    color: #2e2419;
 }
 
 #social-media-items {
@@ -192,7 +192,7 @@ footer {
 }
 
 #social-media-items>li>a {
-    color: #360910;
+    color: #2e2419;
 }
 
 #social-media-items>li>a:hover {
