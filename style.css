@@ -167,6 +167,24 @@ main {
     }
 }
 
+#continents {
+    font-weight: normal;
+}
+
+#continents-list {
+    list-style: none;
+    transform: translateX(-5%);
+}
+
+#continents-list>li>a {
+    color: rgb(248, 234, 157);
+    text-decoration: none;
+}
+
+#continents-list>li>a:hover {
+    color: white;
+}
+
 footer {
     display: grid;
     justify-content: center;
