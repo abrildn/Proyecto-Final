@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(26, 30, 37);
+    background-color: #771223;
     padding: 0;
     margin: 0;
     margin-top: 10px;
@@ -27,7 +27,7 @@ main {
     grid-row: 1 / 2;
     justify-self: start;
     padding-left: 0px;
-    background-color:rgb(13, 16, 22);
+    background-color:#360910;
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px;
 }
@@ -85,11 +85,56 @@ main {
 
 #description {
     grid-column: 2 / 3;
-    background-color: rgb(43, 50, 61);
+    background-color: #C41E3A;
     margin-top: 50px;
     padding: 50px;
     color: rgb(248, 234, 157);
     border-radius: 10px;
+}
+
+#description-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+#specialization-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+#specialization-videos {
+    padding-top: 30px;
+}
+
+#specialization-videos>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#specialization-videos>ul>li {
+    padding-right: 20px;
+}
+
+#specialization-videos>ul>li>img {
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#specialization-videos>ul>li>img:hover {
+    transform: scale(1.2);
+}
+
+#specialization-videos>ul>li>span {
+    display: block;
+    text-align: center;
+}
+
+#specialization-videos>iframe {
+    transform: translateX(48%);
 }
 
 #right-bar {
@@ -101,6 +146,30 @@ main {
     color: rgb(248, 234, 157);
 }
 
+#right-bar>iframe {
+    border: 2px solid rgb(255, 235, 123);
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    25% {
+        border-color: rgb(161, 252, 109);
+    }
+    50% {
+        border-color: rgb(102, 252, 239);
+    }
+    75%{
+        border-color: rgb(130, 109, 253);
+    }
+}
+
+#right-bar>img {
+    display: block;
+    width: 300px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
 footer {
     display: grid;
     justify-content: center;
@@ -109,7 +178,7 @@ footer {
 #footer-title {
     text-align: center;
     font-weight: normal;
-    color: rgb(13, 16, 22);
+    color: #360910;
 }
 
 #social-media-items {
@@ -123,7 +192,7 @@ footer {
 }
 
 #social-media-items>li>a {
-    color: rgb(13, 16, 22);
+    color: #360910;
 }
 
 #social-media-items>li>a:hover {
