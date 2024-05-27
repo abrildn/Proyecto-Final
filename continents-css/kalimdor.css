@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(26, 30, 37);
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-family: "friz quadrata std";
+}
+
+#df-logo {
+    width: 400px;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10%, 80%, 200px;
+    column-gap: 20px;
+}
+
+#navigation-bar {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: start;
+    padding-left: 0px;
+    background-color:rgb(13, 16, 22);
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+#navigation-bar-elements {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation-bar-title {
+    text-align: center;
+    color: rgb(248, 234, 157);
+    font-weight: normal;
+}
+
+#navigation-bar-elements>li {
+    position: relative;
+    display: inline-block;
+}
+
+#navigation-bar-elements>li>a>img {
+    width: 150px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    right: 15%;
+    z-index: 1;
+}
+
+#navigation-bar-elements>li>a>img:hover {
+    transform: scale(1.2);
+}
+
+
+#navigation-bar-elements>li>span {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    padding: 10px 0; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    transform: translate(-15%, 0%);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+
+#navigation-bar-elements>li:hover span {
+    opacity: 1;
+}
+
+#description {
+    grid-column: 2 / 3;
+    background-color: rgb(43, 50, 61);
+    margin-top: 50px;
+    padding: 50px;
+    color: rgb(248, 234, 157);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#description-title {
+    font-weight: normal;
+}
+
+path {
+    fill: rgb(248, 234, 157);
+    color: black;
+}
+
+path:hover{
+    cursor: pointer;
+    fill: rgb(253, 179, 110);
+    stroke-width: 1;
+    animation: color-and-size 0.5s infinite;
+}
+
+@keyframes color-and-size{
+    50%{
+        fill: rgb(253, 179, 110);
+        transform: translateX(5px);
+    }
+}
+
+#right-bar {
+    grid-column: 3 / 4;
+    justify-self: end;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(248, 234, 157);
+}
+
+#right-bar>iframe {
+    border: 2px solid rgb(255, 235, 123);
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    25% {
+        border-color: rgb(161, 252, 109);
+    }
+    50% {
+        border-color: rgb(102, 252, 239);
+    }
+    75%{
+        border-color: rgb(130, 109, 253);
+    }
+}
+
+#continents {
+    font-weight: normal;
+}
+
+#continents-list {
+    list-style: none;
+    transform: translateX(-5%);
+}
+
+#continents-list>li>a {
+    color: rgb(248, 234, 157);
+    text-decoration: none;
+}
+
+#continents-list>li>a:hover {
+    color: white;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+}
+
+#footer-title {
+    text-align: center;
+    font-weight: normal;
+    color: rgb(13, 16, 22);
+}
+
+#social-media-items {
+    display: flex;
+    list-style: none;
+}
+
+#social-media-items>li {
+    padding-right: 50px;
+    scale: 150%;
+}
+
+#social-media-items>li>a {
+    color: rgb(13, 16, 22);
+}
+
+#social-media-items>li>a:hover {
+    color: rgb(248, 234, 157);
+    transition: 0.5s;
+}
+
+#social-media-items>li>a:active {
+    color: white;
+}

@@ -146,8 +146,11 @@ main {
     justify-self: end;
     margin-right: 20px;
     text-align: center;
-    font-weight: normal;
     color: rgb(248, 234, 157);
+}
+
+#right-bar-title {
+    font-weight: normal;
 }
 
 #right-bar>iframe {
@@ -183,6 +186,10 @@ main {
 
 #continents-list>li>a:hover {
     color: white;
+}
+
+#survey {
+    color: rgb(253, 190, 118);
 }
 
 footer {
