@@ -92,6 +92,10 @@ main {
     border-radius: 10px;
 }
 
+#desc-title {
+    font-size: 25px;
+}
+
 #description-video {
     text-align: center;
 }
@@ -188,8 +192,43 @@ main {
     color: white;
 }
 
-#survey {
+#survey-info {
     color: rgb(253, 190, 118);
+}
+
+#survey-title {
+    color: rgb(248, 234, 157);
+    font-weight: normal;
+    text-align: center;
+}
+
+#survey {
+    display: grid;
+    justify-content: center;
+}
+
+.survey-info {
+    color: rgb(248, 234, 157);
+    display: grid;
+    padding-bottom: 20px;
+}
+
+.survey-info>label {
+    padding-bottom: 10px;
+}
+
+.survey-info>input{
+    width: 200px;
+}
+
+#info {
+    width: 500px;
+    height: 250px;
+    resize: none;
+}
+
+#send-button {
+    width: 200px;
 }
 
 footer {

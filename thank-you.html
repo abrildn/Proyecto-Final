@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Survey</title>
+    <title>Thank you!</title>
 </head>
 
 <body>
@@ -105,35 +105,10 @@
         </div>
 
         <div id="description">
-            <div id="survey-info">
-                <h2 id="survey-title">Take the Survey!</h2>
-                <form id="survey" action="thank-you.html">
-                    <div class="survey-info">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name">
-                    </div>
-                    <div class="survey-info">
-                        <label for="age">Age</label>
-                        <input type="text" name="age" id="age">
-                    </div>
-                    <div class="survey-info">
-                        <label for="class">What class did you like the most?</label>
-                        <input type="text" id="class">
-                    </div>
-                    <div class="survey-info">
-                        <label for="zone">What zone did you like the most?</label>
-                        <input type="text" id="zone">
-                    </div>
-                    <div class="survey-info">
-                        <label for="song">What song did you like the most?</label>
-                        <input type="text" id="song">
-                    </div>
-                    <div class="survey-info">
-                        <label for="info">How did you find out about Warcraft?</label>
-                        <textarea name="" id="info"></textarea>
-                    </div>
-                    <input onclick="saveInfo()" id="send-button" type="submit" value="Send">
-                </form>
+            <span id="desc-title">Thank you for taking the survey!</span>
+            <div id="info-users">
+                <ol id="users">
+                </ol>
             </div>
         </div>
 
