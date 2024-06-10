@@ -100,6 +100,8 @@ main {
 path {
     fill: rgb(248, 234, 157);
     color: black;
+    stroke: black;
+    stroke-width: 0.5px;
 }
 
 path:hover{
