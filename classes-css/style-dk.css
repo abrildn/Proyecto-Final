@@ -163,6 +163,64 @@ main {
     }
 }
 
+#right-bar-continents {
+    background-color: rgba(255, 235, 123, 0.151);
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#continents {
+    font-weight: normal;
+    color: rgb(133, 255, 163);
+}
+
+#continents-list {
+    list-style: none;
+    transform: translateX(-5%);
+}
+
+#continents-list>li>a {
+    text-decoration: none;
+}
+
+#mounts {
+    color: rgb(248, 234, 157);
+    text-decoration: none;
+    background-color: rgb(1, 42, 119);
+    padding: 10px;
+    border-style: inset;
+}
+
+#mounts:hover {
+    color: rgb(255, 183, 115);
+    background-color: rgb(72, 34, 107);
+    transition: 0.5s;
+}
+
+#survey {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    max-width: 270px;
+    background-color: rgb(114, 21, 21);
+    margin-top: 20px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 10px;
+}
+
+#survey:hover {
+    color: rgb(114, 21, 21);
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(114, 21, 21);
+    transition: 0.7s;
+}
+
 #right-bar>img {
     display: block;
     width: 300px;
