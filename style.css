@@ -136,6 +136,8 @@ main {
     padding-top: 10px;
     padding-bottom: 30px;
     border: 2px solid rgb(26, 31, 37);
+    display: grid;
+    place-items: center;
 }
 
 #expansions-info-title {
@@ -169,10 +171,6 @@ main {
 
 #expansions-items-two>li>img:hover {
     transform: scale(1.2);
-}
-
-#change-video {
-    transform: translateX(48%);
 }
 
 #right-bar {
